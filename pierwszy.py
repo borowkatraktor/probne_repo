@@ -14,12 +14,4 @@ list2 = [4, 5, 6, 7, 8, 9]
 print(merged(list1, list2))
 
 
-def factorial(keyin):
-    if keyin == 1 or keyin == 0:
-        return 1
-    elif keyin < 0:
-        return 'no tak to ziomek nie działa'
-    else:
-        return keyin * factorial(keyin - 1)
-
-print(factorial(int(input('jaką liczbę kurwa ten? '))))
+print('a to zmiana dla nowej gałęzi')
