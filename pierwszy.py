@@ -15,3 +15,4 @@ print(merged(list1, list2))
 
 
 print('a to zmiana dla nowej gałęzi')
+print('hej kocham cię')
