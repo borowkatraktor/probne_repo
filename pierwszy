@@ -1,17 +1,6 @@
 print('hej, tu nowe repo')
 
-import math
 
-def roundroot(keyin):
-    root1 = math.sqrt(keyin)
-    root2 = round(root1, 2)
-    if root2 % 2 == 0:
-        even = 'parzysta'
-    else:
-        even = 'nieparzysta'
-    return root2, even
-
-keyin = (int(input('give me your number ')))
 
 
 def merged(list1, list2):
